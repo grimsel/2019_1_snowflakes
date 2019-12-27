@@ -23,7 +23,7 @@ public class GameOver extends World
     public void act()
     {
         if (Greenfoot.mouseClicked(this)) {
-            AvoiderWorld world =  new AvoiderWorld();
+            AvoiderWorld world =  new  AvoiderWorld();
             Greenfoot.setWorld(world);
         }
     }

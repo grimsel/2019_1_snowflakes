@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class name="IntroScreen" extends="World" extends-java="World" enable="true" strideversion="1">
+<class abstract="true" name="IntroScreen" extends="World" extends-java="World" enable="true" strideversion="1">
     <javadoc xml:space="preserve"/>
     <imports>
         <import target="java.util.*" enable="true"/>
         <import target="greenfoot.*" enable="true"/>
+        <import target="" enable="true"/>
+        <import target="" enable="true"/>
     </imports>
     <implements/>
     <fields/>

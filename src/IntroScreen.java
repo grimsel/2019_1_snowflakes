@@ -2,11 +2,13 @@
 import lang.stride.*;
 import java.util.*;
 import greenfoot.*;
+import ;
+import ;
 
 /**
  * 
  */
-public class IntroScreen extends World
+public abstract class IntroScreen extends World
 {
 
     /**
@@ -24,7 +26,7 @@ public class IntroScreen extends World
     public void act()
     {
         if (Greenfoot.mouseClicked(this)) {
-            AvoiderWorld world =  new AvoiderWorld();
+            AvoiderWorld world =  new  AvoiderWorld();
             Greenfoot.setWorld(world);
         }
     }
